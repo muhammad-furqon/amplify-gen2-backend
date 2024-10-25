@@ -1,4 +1,5 @@
 # amplify-gen2-backend
+バックエンド共通版
 Aws Events CodeFirstTypeSafety by ErikCH turns into backend repo for Amplify Gen 2.
 
 ## Amplify Command
