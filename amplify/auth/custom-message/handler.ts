@@ -10,7 +10,10 @@ export const handler: CustomMessageTriggerHandler = async (event) => {
       event.response.emailMessage = `Tu nuevo código de un solo uso es ${event.request.codeParameter}`;
       event.response.emailSubject = "Restablecer mi contraseña";
     }
+    else {
+      event.response.emailMessage = `Your new one-time code is ${event.request.codeParameter}`;
+      event.response.emailSubject = "Reset my password";
+    }
   }
-
   return event;
 };
